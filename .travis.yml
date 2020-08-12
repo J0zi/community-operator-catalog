@@ -3,7 +3,7 @@ language: python
 os: linux
 sudo: required
 
-if: type = pull_request
+if: type = pull_request OR type = api
 #  - (branch = release-pipeline-running and type = cron) or (branch = release-pipeline-running and type = api)
 
 python:
